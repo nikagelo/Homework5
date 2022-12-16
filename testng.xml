@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" thread-count="1" parallel="tests">
+    <test name="Homework5" parallel="tests" >
+        <classes>
+            <class name="NewPackage.New"/>
+        </classes>
+    </test>
+</suite>
